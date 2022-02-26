@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 756
+  controlID: 3308
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -53,8 +53,10 @@ MonoBehaviour:
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
-  m_SerializedViewNames: []
-  m_SerializedViewValues: []
+  m_SerializedViewNames:
+  - UnityEditor.DeviceSimulation.SimulatorWindow
+  m_SerializedViewValues:
+  - /Users/aaditipatange/UnityProjects/sprintItUp/HealthyMinds/Library/PlayModeViewStates/d468c125a6b8a4dce9586c727ee9afd8
   m_PlayModeViewName: GameView
   m_ShowGizmos: 0
   m_TargetDisplay: 0
@@ -83,8 +85,8 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMin: 1
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
-    m_HSlider: 0
-    m_VSlider: 0
+    m_HSlider: 1
+    m_VSlider: 1
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
@@ -97,18 +99,18 @@ MonoBehaviour:
       y: 21
       width: 335.5
       height: 461.5
-    m_Scale: {x: 2, y: 2}
-    m_Translation: {x: 167.75, y: 230.75}
+    m_Scale: {x: 4, y: 4}
+    m_Translation: {x: 149.2267, y: 180.04184}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -83.875
-      y: -115.375
-      width: 167.75
-      height: 230.75
+      x: -37.306675
+      y: -45.01046
+      width: 83.875
+      height: 115.375
     m_MinimalGUI: 1
   m_defaultScale: 2
   m_LastWindowPixelSize: {x: 671, y: 965}
@@ -141,7 +143,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 757
+  controlID: 3309
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -167,7 +169,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 758
+  controlID: 3310
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -225,9 +227,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 76580000
-      m_LastClickedID: 22646
-      m_ExpandedIDs: 3afbffff
+      m_SelectedIDs: d6600000
+      m_LastClickedID: 24790
+      m_ExpandedIDs: 4eddffff7addffffa6ddffffaeddffff3afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -495,16 +497,16 @@ MonoBehaviour:
   m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
   m_Gizmos: 1
   m_OverrideSceneCullingMask: 6917529027641081856
-  m_SceneIsLit: 0
+  m_SceneIsLit: 1
   m_SceneLighting: 1
   m_2DMode: 0
   m_isRotationLocked: 0
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -26.398863, y: 14.125958, z: 6.935892}
+    m_Target: {x: -20.008926, y: 11.803087, z: -236.5809}
     speed: 2
-    m_Value: {x: -26.398863, y: 14.125958, z: 6.935892}
+    m_Value: {x: -20.008926, y: 11.803087, z: -236.5809}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -553,11 +555,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
-    m_Value: {x: 0.000012031038, y: 0, z: 0, w: 0.99999994}
+    m_Value: {x: 0.0000161038, y: 0, z: 0, w: 0.99999994}
   m_Size:
-    m_Target: 243.76576
+    m_Target: 666.9973
     speed: 2
-    m_Value: 243.58308
+    m_Value: 666.4975
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -676,22 +678,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Tom's Terrain Tools/Unity Terrain Assets/Textures
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Tom's Terrain Tools/Unity Terrain Assets/Textures
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/aaditipatange/UnityProjects/sprintItUp/HealthyMinds
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: b6580000
-    m_LastClickedID: 22710
-    m_ExpandedIDs: 00000000ac58000000ca9a3b
+    scrollPos: {x: 0, y: 62.5}
+    m_SelectedIDs: 06610000
+    m_LastClickedID: 24838
+    m_ExpandedIDs: 00000000ac580000906100009261000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -744,8 +746,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 76580000
-    m_LastClickedInstanceID: 22646
+    m_SelectedInstanceIDs: d6600000
+    m_LastClickedInstanceID: 24790
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
