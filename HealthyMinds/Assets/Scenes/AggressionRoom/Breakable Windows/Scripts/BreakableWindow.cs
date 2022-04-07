@@ -238,15 +238,15 @@ public class BreakableWindow : MonoBehaviour {
     {
         if (useCollision == true)
         {
-            if (health > 0)
-            {
-                health -= col.impulse.magnitude;
+            // if (health > 0)
+            // {
+            //     health -= col.impulse.magnitude;
                 if (health < 0)
                 {
                     health = 0;
                     breakWindow();
                 }
-            }
+            // }
             else breakWindow();
         }        
     }
