@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657815, g: 0.49641192, b: 0.57481617, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -593,6 +593,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 898c36af121dd034b8faf5de42be8b43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scoreT: 0
 --- !u!1001 &642892532
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -746,17 +747,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: PC_BaseBall_Bat_LOD_2
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 697f6e44834107946af4b72502137dee, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 697f6e44834107946af4b72502137dee, type: 3}
       propertyPath: m_RootOrder
       value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 697f6e44834107946af4b72502137dee, type: 3}
       propertyPath: m_LocalScale.x
-      value: 2.0490117
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 697f6e44834107946af4b72502137dee, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.9567477
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 697f6e44834107946af4b72502137dee, type: 3}
       propertyPath: m_LocalScale.z
@@ -764,15 +769,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 697f6e44834107946af4b72502137dee, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.015
+      value: 1.2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 697f6e44834107946af4b72502137dee, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.96745
+      value: 1.55
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 697f6e44834107946af4b72502137dee, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.1699
+      value: 1.808
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 697f6e44834107946af4b72502137dee, type: 3}
       propertyPath: m_LocalRotation.w
@@ -801,6 +806,10 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 697f6e44834107946af4b72502137dee, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 697f6e44834107946af4b72502137dee, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 697f6e44834107946af4b72502137dee, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -1215,7 +1224,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: A 100
+  m_text: A 1000
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1304,6 +1313,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8efcc00c1584edb459b906494d7775e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tScoreUpodater: {fileID: 0}
 --- !u!1001 &1523570877
 PrefabInstance:
   m_ObjectHideFlags: 0

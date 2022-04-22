@@ -8,11 +8,13 @@ public class ScoreUpdater : MonoBehaviour
 {
     private TextMeshProUGUI textMesH;
     private double score;
+    public TScoreUpdater tScoreUpodater;
     // Start is called before the first frame update
     void Start()
     {
         textMesH = GetComponent<TextMeshProUGUI> ();
-        score = 100;
+        tScoreUpodater = GameObject.FindObjectOfType<TScoreUpdater>();
+        score = 1000;
     }
 
     // Update is called once per frame
@@ -20,7 +22,7 @@ public class ScoreUpdater : MonoBehaviour
     {
         textMesH.text = "A " + score.ToString();
         if(Input.GetKey("mouse 0") && score != 0){
-        score-= 0.5;
+        score-= tScoreUpodater.scoreT;
         }
     }
 }

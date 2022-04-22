@@ -16,9 +16,14 @@ public class HammerUpdate : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKey("mouse 0")){
-            Debug.Log(anglesToRotate);
-            this.transform.Rotate(anglesToRotate * Time.deltaTime);
+        if(Input.GetMouseButtonDown(0)){
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+   	RaycastHit hit;
+   	// Casts the ray and get the first game object hit
+   	Physics.Raycast(ray, out hit);
+   	Debug.Log("This hit at " + hit.point );
+            // Debug.Log(anglesToRotate);
+            // this.transform.Rotate(anglesToRotate * Time.deltaTime);
         }
     }
 }
