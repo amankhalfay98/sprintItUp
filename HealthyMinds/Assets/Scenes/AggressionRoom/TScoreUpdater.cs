@@ -7,20 +7,17 @@ using TMPro;
 public class TScoreUpdater : MonoBehaviour
 {
     private TextMeshProUGUI textTMesH;
-    private double scoreT;
+    public double scoreT;
     // Start is called before the first frame update
     void Start()
     {
         textTMesH = GetComponent<TextMeshProUGUI> ();
-        scoreT = 10;
+        scoreT = 20;
     }
 
     // Update is called once per frame
     void Update()
     {
         textTMesH.text = "T " + scoreT.ToString();
-        if(Input.GetKey("mouse 0") && scoreT != 50){
-        scoreT += 10;
-        }
     }
 }
