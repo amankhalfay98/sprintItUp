@@ -1393,6 +1393,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anglesToRotate: {x: 0, y: 0, z: 90}
+  controller: {fileID: 0}
+  speed: 5
+  gravity: -15
+--- !u!143 &1572074398
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1572074393}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Height: 2
+  m_Radius: 0.5
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.05
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1842274956
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1466,6 +1487,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb7b0d81414d6724fa971f03578cebd2, type: 3}
+--- !u!1 &1935830104 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 697f6e44834107946af4b72502137dee, type: 3}
+  m_PrefabInstance: {fileID: 1078776495}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1935830108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1935830104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db50606ba6564c7408476add7414c285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anglesToRotate: {x: 0, y: 0, z: 90}
 --- !u!1 &1948153888
 GameObject:
   m_ObjectHideFlags: 0
