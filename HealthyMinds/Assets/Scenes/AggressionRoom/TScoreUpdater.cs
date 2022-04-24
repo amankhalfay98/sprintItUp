@@ -12,12 +12,15 @@ public class TScoreUpdater : MonoBehaviour
     void Start()
     {
         textTMesH = GetComponent<TextMeshProUGUI> ();
-        scoreT = 20;
+        scoreT = 10;
     }
 
     // Update is called once per frame
     void Update()
     {
         textTMesH.text = "T " + scoreT.ToString();
+        if(Input.GetKey("mouse 0") && scoreT != 0){
+        scoreT=20;
+        }
     }
 }
