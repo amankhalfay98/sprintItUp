@@ -22,7 +22,7 @@ public class ScoreUpdater : MonoBehaviour
     {
         textMesH.text = "A " + score.ToString();
         if(Input.GetKey("mouse 0") && score != 0){
-        score-= tScoreUpodater.scoreT;
+        score-= (tScoreUpodater.scoreT -10);
         }
 
         if(score==0){
