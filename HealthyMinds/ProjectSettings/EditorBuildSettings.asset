@@ -9,8 +9,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Living_Room/LivingRoom.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Scenes/AggressionRoom/Aggression.unity
-    guid: 08c81a46ca62c433fa51878823ca6e92
+    path: Assets/Scenes/AggressionRoom/Aggression 1.unity
+    guid: 041cedb68503bf849b0355cbe7e0e86e
   - enabled: 1
     path: Assets/Scenes/Depression_Room/Depression.unity
     guid: f01c57879e24647f48802293e6232264
@@ -20,7 +20,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Stress room/Stress.unity
     guid: 029a9967deff24120a7c9869b5627309
-  - enabled: 0
-    path: Assets/Scenes/Living_Room/test.unity
-    guid: 03c655aac5f2547e1a3bfb749c5729e3
   m_configObjects: {}
